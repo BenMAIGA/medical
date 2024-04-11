@@ -1,0 +1,48 @@
+.message{
+    width: 350px;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border: 1px solid #6fd649;
+    border-radius: 10px;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0  10px 10px;
+    border-radius: 100%;
+    color:#333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    visibility: visible;
+    transition: transfor 0.4s, top 0.4s;
+}
+.close-message{
+    visibility: hidden;
+    top: 0;
+    transform: translate(-50%,-50%) scale(0.1);
+}
+.message h2{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(0, 202, 78);
+    border-radius: 5px;
+}
+.message  button{
+    width: 20%;
+    margin-top: 20px;
+    padding: 5px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
