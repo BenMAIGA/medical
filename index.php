@@ -1,4 +1,5 @@
-<?php
+<html>
+	<?php
 
 $connect = mysqli_connect("localhost","root","","bmdproject");
 
@@ -380,3 +381,4 @@ while ($row = mysqli_fetch_assoc($data_run))
 <?php
 include "footer.html";
 ?>
+</html>
